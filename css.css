@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'JosefinSans-SemiBold';
+    src: url('fonts/JosefinSans-SemiBold.ttf');
+    src: url('fonts/JosefinSans-SemiBold.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'JosefinSans-Light';
+    src: url('fonts/JosefinSans-Light.ttf');
+    src: url('fonts/JosefinSans-Light.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+  background-color: white;
+  font-family: 'JosefinSans-Light';
+  color: white;
+  padding:0;
+  margin:0;
+}
+
+#bloc_page
+{
+    
+    margin: auto;
+}
+
+header
+{
+  background-color: #55d6c2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'JosefinSans-SemiBold';
+  font-size: 1em;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+}
+
+.logo
+{
+  margin-left: 20px;
+}
+header a
+{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul
+{
+  list-style-type: none;
+  display: flex;
+  font-size: 1.1em;
+}
+
+nav li
+{
+  margin-right: 15px;
+}
+
+nav a:hover
+{
+  text-shadow: 2px 1px 1px #A9A9A9	;
+    color: white;
+    font-weight: bold;
+
+}
+
+#image_maccafe
+{
+      height: 1000px;
+
+  background: url("img/header.jpg") no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'JosefinSans-SemiBold';
+  text-align: center;
+}
+
+#image_maccafe h1
+{
+  font-size: 2.5em;
+}
+#image_maccafe p
+{
+  font-size: 2em;
+}
+
+h2
+{
+  font-family: 'JosefinSans-SemiBold'
+}
+
+#a_propos
+{
+  padding: 65px;
+  background-color: #55d6c2;
+  display: flex;
+  color: white;
+}
+#a_propos img
+{
+object-fit: contain;
+}
+
+#texte
+{
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+#services
+{
+  color:black;
+  height: 480px;
+}
+
+#services h2
+{
+  padding-left: 70px;
+  padding-top: 70px;
+}
+
+#services1et2
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+#services1et2 img
+{
+  border-radius: 15px 15px 0px 0px;
+}
+
+figure
+{
+    box-shadow: 1px 1px 3px #A9A9A9;
+    border-radius: 15px;
+}
+
+figcaption
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  font-weight: bold;
+}
+
+figcaption a
+{
+  text-decoration: none;
+  color: #55d6c2;
+  font-size: 1.2em;
+  margin-top: 20px;
+  padding: 6px 12px;
+
+  border: 2px solid #55d6c2	;
+  border-radius: 10px;
+}
+
+figcaption a:hover
+{
+     color: #45b09f;
+     border-color: #45b09f;
+
+}
+
+footer
+{
+  background-color:#55d6c2;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  padding: 70px;
+}
+
+footer strong
+{
+  font-family: 'JosefinSans-SemiBold';
+}
+
+#contact
+{
+  display: flex;
+      flex-direction: column;
+ 
+
+}
+
+#newsletter
+{
+  display: flex;
+      flex-direction: column;
+      margin-right: 100px;
+      margin-top: 70px;
+  
+}
+
+#newsletter p
+{
+  margin-top: 0px;
+}
+
+#submitbutton
+{
+  color: white;
+  font-size: 1em;
+  background-color: #55d6c2;
+  border: 2px solid white	;
+  border-radius: 10px;
+  padding: 2px 18px;
+}
+
+#submitbutton:hover
+{
+     color: #45b09f;
+     border-color: #45b09f;
+
+}
