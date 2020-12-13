@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'JosefinSans-SemiBold';
     src: url('fonts/JosefinSans-SemiBold.ttf');
-    src: url('fonts/JosefinSans-SemiBold.ttf') format('truetype'),
+    src: url('fonts/JosefinSans-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -10,7 +10,7 @@
 @font-face {
     font-family: 'JosefinSans-Light';
     src: url('fonts/JosefinSans-Light.ttf');
-    src: url('fonts/JosefinSans-Light.ttf') format('truetype'),
+    src: url('fonts/JosefinSans-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
@@ -58,6 +58,7 @@ nav ul
 {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   font-size: 1.1em;
 }
 
@@ -123,7 +124,8 @@ object-fit: contain;
 #services
 {
   color:black;
-  height: 480px;
+  height: px;
+  
 }
 
 #services h2
